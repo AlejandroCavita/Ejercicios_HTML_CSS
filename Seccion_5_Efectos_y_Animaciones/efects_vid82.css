@@ -1,0 +1,25 @@
+div {	
+	border: 2px solid black;
+	width: 50%;
+	position: relative;
+	margin-right: 25%;
+	margin-top: 10%
+}
+
+
+div#beforeAfter:before{
+	content: 'hola';
+	background: red;
+}
+
+div#beforeAfter:after{
+	content: 'mundo';
+}
+
+div#enlace:hover{
+	background: orange;
+}
+
+a:hover{
+	color: red;
+}
